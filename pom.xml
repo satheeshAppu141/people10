@@ -52,17 +52,24 @@
 			<scope>runtime</scope>
 		</dependency>
 
- 		<!-- for hikari connection pooling/datasource -->
+		<!-- for hikari connection pooling/datasource -->
 		<dependency>
 			<groupId>com.zaxxer</groupId>
 			<artifactId>HikariCP</artifactId>
 		</dependency>
 
-	     <!-- for exception utils -->
+		<!-- for exception utils -->
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
 			<version>2.2</version>
+		</dependency>
+
+		<!-- for junit testing -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
